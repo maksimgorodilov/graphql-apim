@@ -48,7 +48,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'GraphQLAPIM'
+          app-name: 'TestGraphQLAPIM'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_AAD5F44D183340C69FD1B07B11F4F377 }}
           package: .

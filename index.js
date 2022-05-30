@@ -38,6 +38,6 @@ const server = new ApolloServer({
   ]
 })
 
-server.listen(process.env.PORT || 8080).then(({ url }) => {
+server.listen(8080).then(({ url }) => {
   console.log(`Ready at ${url}`)
 })
